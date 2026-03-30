@@ -47,32 +47,36 @@ DigitalAssetsApp/
 
 ### 1. Clone the repo
 
-```bash
+### 1. Clone the repo
+
+### 1. Clone the repo
+
+### 1. Clone the repo
+
 git clone https://github.com/<your-username>/DigitalAssetsApp.git
 cd DigitalAssetsApp: Optional basic HTML/JS (for demo)
 
 ---
-
-
 ### 2. Configure SQL Server
+
 Update appsettings.json connection string:
 
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_SERVER;Database=DigitalAssetsDb;Trusted_Connection=True;"
 }
-
+---
 ### 3. Apply Migrations
 cd Infrastructure
 dotnet ef database update --startup-project ../API
-
+---
 ### 4. Run the App
 cd API
 dotnet run
 
 Swagger UI: https://localhost:<port>/index.html
+---
+### 🔧 Architecture Decisions
 
-
-🔧 Architecture Decisions
 Clean Architecture: Decouples layers, easy to maintain
 FluentValidation: Centralized, clean input validation
 Middleware: Global exception handling
@@ -80,14 +84,15 @@ Serilog Logging: Structured logging for production-grade observability
 EF Core + SQL: Real database for persistence, migrations support
 Swagger: Interactive API documentation
 
-✅ Improvements & Next Steps
+---
+### ✅ Improvements & Next Steps
 Add unit & integration tests for services and controllers
 Implement JWT authentication for secure API
 Expand Web3 simulation with event tracking
 Add frontend SPA with React/Blazor
 Add Docker support for deployment
-
-📂 Folder Structure Visual
+---
+### 📂 Folder Structure Visual
 API/
 ├─ Controllers/
 ├─ Middleware/
@@ -102,7 +107,8 @@ Domain/
 ├─ Entities/
 README.md
 
-🔑 Key Learnings
+---
+### 🔑 Key Learnings
 
 Structured logging is essential for production apps
 Clean architecture ensures maintainability and scalability
