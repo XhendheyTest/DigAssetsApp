@@ -47,12 +47,6 @@ DigitalAssetsApp/
 
 ### 1. Clone the repo
 
-### 1. Clone the repo
-
-### 1. Clone the repo
-
-### 1. Clone the repo
-
 git clone https://github.com/<your-username>/DigitalAssetsApp.git
 cd DigitalAssetsApp: Optional basic HTML/JS (for demo)
 
