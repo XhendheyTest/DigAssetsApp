@@ -80,12 +80,14 @@ Swagger: Interactive API documentation
 
 ---
 ### ✅ Improvements & Next Steps
+
 Add unit & integration tests for services and controllers
 Implement JWT authentication for secure API
 Expand Web3 simulation with event tracking
 Add frontend SPA with React/Blazor
 Add Docker support for deployment
 ---
+
 ### 📂 Folder Structure Visual
 API/
 ├─ Controllers/
